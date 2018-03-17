@@ -1,6 +1,6 @@
 {
   "name": "vue-autoresize-textarea",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A autoresizable textarea component build using autosize",
   "main": "src/index.js",
   "scripts": {

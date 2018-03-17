@@ -1,5 +1,5 @@
 <template>
-    <textarea v-model="localValue" v-on:keyup="resize" v-on:self="resize"></textarea>
+    <textarea v-model="localValue" v-on:keyup="resize" ></textarea>
 </template>
 
 <script>
