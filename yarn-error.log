@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add babel-core, babel-loader, babel-preset-env, css-loader, file-loader, node-sass, sass-loader, vue-loader. vue-templete-compiler, vue, autosize, webpack
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "vue-autoresize-textarea",
+    "version": "0.0.1",
+    "description": "A autoresizable textarea component build using autosize",
+    "main": "src/index.js",
+    "scripts": {
+      "dev": "webpack -d --watch",
+      "build": "webpack -p"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sriramveeraghanta/vue-autoresize-textarea.git"
+    },
+    "keywords": [
+      "vue",
+      "autoresize",
+      "textarea"
+    ],
+    "author": "sriramveeraghanta",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sriramveeraghanta/vue-autoresize-textarea/issues"
+    },
+    "homepage": "https://github.com/sriramveeraghanta/vue-autoresize-textarea#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "babel-core," on the "npm" registry.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at NpmResolver.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)

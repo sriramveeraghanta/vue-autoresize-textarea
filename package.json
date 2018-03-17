@@ -1,0 +1,36 @@
+{
+  "name": "vue-autoresize-textarea",
+  "version": "0.0.4",
+  "description": "A autoresizable textarea component build using autosize",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramveeraghanta/vue-autoresize-textarea.git"
+  },
+  "keywords": [
+    "vue",
+    "autoresize",
+    "textarea"
+  ],
+  "author": "sriramveeraghanta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sriramveeraghanta/vue-autoresize-textarea/issues"
+  },
+  "homepage": "https://github.com/sriramveeraghanta/vue-autoresize-textarea#readme",
+  "dependencies": {
+    "autosize": "^4.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.8.1"
+  }
+}
