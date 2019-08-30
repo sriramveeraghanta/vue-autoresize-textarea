@@ -1,11 +1,11 @@
 {
   "name": "vue-autoresize-textarea",
-  "version": "0.10.0",
-  "description": "A autoresizable textarea component build using autosize",
+  "version": "0.2.0",
+  "description": "A auto resizable textarea component build using autosize",
   "main": "src/index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "dev": "vue serve ./src/TextAreaAutoResize.vue",
+    "build": "bili --bundle-node-modules"
   },
   "repository": {
     "type": "git",
@@ -23,14 +23,11 @@
   },
   "homepage": "https://github.com/sriramveeraghanta/vue-autoresize-textarea#readme",
   "dependencies": {
-    "autosize": "^4.0.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "vue": "^2.5.16",
-    "vue-loader": "^14.2.1",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^3.8.1"
+    "autosize": "^4.0.0"
+  },
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.6.10"
   }
 }

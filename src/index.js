@@ -1,3 +1,7 @@
-import autoresize from './components/App.vue'
+import TextAreaAutoResize from './TextAreaAutoResize.vue'
 
-export default autoresize
+export default {
+  install(Vue) {
+    Vue.component("TextAreaAutoResize", TextAreaAutoResize);
+  }
+};
